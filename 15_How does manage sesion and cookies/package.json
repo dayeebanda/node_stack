@@ -1,0 +1,26 @@
+{
+    "name": "15_How does manage sesion and cookies",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "connect-mongodb-session": "^2.3.1",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "express-session": "^1.17.0",
+        "express-validator": "^6.4.0",
+        "mongoose": "^5.9.7",
+        "morgan": "^1.10.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
